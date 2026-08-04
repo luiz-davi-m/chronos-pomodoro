@@ -1,12 +1,13 @@
 import "./styles/theme.css";
 import "./styles/global.css";
+import { Heading } from "./components/Heading";
 
 export function App() {
   console.log("App.tsx");
 
   return (
     <>
-      <h1>Olá mundo!</h1>
+      <Heading />
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
