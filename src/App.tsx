@@ -7,9 +7,7 @@ export function App() {
 
   return (
     <>
-      <Heading attr={123} attr2="String">
-        Olá mundo!
-      </Heading>
+      <Heading>Olá mundo!</Heading>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
