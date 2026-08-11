@@ -1,13 +1,19 @@
 import "./styles/theme.css";
 import "./styles/global.css";
 import { Heading } from "./components/Heading";
+import { TimerIcon } from "lucide-react";
 
 export function App() {
   console.log("App.tsx");
 
   return (
     <>
-      <Heading>Olá mundo!</Heading>
+      <Heading>
+        Olá mundo!
+        <button>
+          <TimerIcon />
+        </button>
+      </Heading>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
